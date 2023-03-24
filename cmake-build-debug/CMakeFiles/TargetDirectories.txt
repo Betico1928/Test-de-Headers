@@ -1,0 +1,3 @@
+/Users/case/CLionProjects/Creacion de Headers/Practica-de-Headers/cmake-build-debug/CMakeFiles/Creacion_de_Headers.dir
+/Users/case/CLionProjects/Creacion de Headers/Practica-de-Headers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/case/CLionProjects/Creacion de Headers/Practica-de-Headers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
