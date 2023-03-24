@@ -11,4 +11,26 @@ int funcionResta (int datoA, int datoB);
 int funcionMultiplicacion (int datoA, int datoB);
 int funcionDivision (int datoA, int datoB);
 
+
+// Funciones como tal
+int funcionSuma (int datoA, int datoB)
+{
+    return (datoA + datoB);
+}
+
+int funcionResta (int datoA, int datoB)
+{
+    return (datoA - datoB);
+}
+
+int funcionMultiplicacion (int datoA, int datoB)
+{
+    return (datoA * datoB);
+}
+
+int funcionDivision (int datoA, int datoB)
+{
+    return (datoA / datoB);
+}
+
 #endif //CREACION_DE_HEADERS_OPERACIONES_H
