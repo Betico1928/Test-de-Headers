@@ -6,29 +6,40 @@
 #define CREACION_DE_HEADERS_OPERACIONES_H
 
 // Prototipo de funciones
-int funcionSuma (int datoA, int datoB);
-int funcionResta (int datoA, int datoB);
-int funcionMultiplicacion (int datoA, int datoB);
-int funcionDivision (int datoA, int datoB);
+template < class varGEN >
+varGEN funcionSuma (varGEN datoA, varGEN datoB);
+
+template < class varGEN >
+varGEN funcionResta (varGEN datoA, varGEN datoB);
+
+template < class varGEN >
+varGEN funcionMultiplicacion (varGEN datoA, varGEN datoB);
+
+template < class varGEN >
+varGEN funcionDivision (varGEN datoA, varGEN datoB);
 
 
 // Funciones como tal
-int funcionSuma (int datoA, int datoB)
+template < class varGEN >
+varGEN funcionSuma (varGEN datoA, varGEN datoB)
 {
     return (datoA + datoB);
 }
 
-int funcionResta (int datoA, int datoB)
+template < class varGEN >
+varGEN funcionResta (varGEN datoA, varGEN datoB)
 {
     return (datoA - datoB);
 }
 
-int funcionMultiplicacion (int datoA, int datoB)
+template < class varGEN >
+varGEN funcionMultiplicacion (varGEN datoA, varGEN datoB)
 {
     return (datoA * datoB);
 }
 
-int funcionDivision (int datoA, int datoB)
+template < class varGEN >
+varGEN funcionDivision (varGEN datoA, varGEN datoB)
 {
     return (datoA / datoB);
 }

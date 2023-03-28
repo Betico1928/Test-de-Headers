@@ -1,5 +1,5 @@
 #include <iostream>
-#include "operaciones.h";
+#include "Operaciones.h"
 
 using namespace std;
 
@@ -8,8 +8,8 @@ int main()
     cout << "Hola, mundo!" << endl;
 
     char operacionARealizar;
-    int datoA;
-    int datoB;
+    double datoA;
+    double datoB;
 
     cout << "Introduzca su dato A" << endl;
     cin >> datoA;
